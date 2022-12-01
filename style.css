@@ -1,0 +1,105 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #ececec;
+  font-family: cursive;
+  color: #555264;
+  font-size: 16px;
+  line-height: 30px;
+  background-image: url("https://cutewallpaper.org/21/harry-potter-pattern-wallpaper/381-images-about-Harry-Potter-Phone-Backgrounds-on-We-Heart-.jpg");
+}
+
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #9b61b0;
+  line-height: 45px;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  color: #8f5891;
+  line-height: 45px;
+  font-size: 22px;
+}
+
+.card {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #b2f1ff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2PX 3PX 7PX #9692af;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+  width: 0px 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2PX 3PX 7PX #9692af;
+}
+
+#btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ca73a6;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: #92336a;
+  transition: 0.5s;
+}
+
+i {
+  color: #179e78;
+  background-color: #d0bfd3;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 2PX 3PX 7PX #9692af;
+}
+
+i:hover {
+  background-color: #c95458;
+  transition: 0.6s;
+
+}
+
+ul {
+   padding: 0px;
+}
